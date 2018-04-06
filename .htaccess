@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^app/profile/([^/]+)$ app/profile/index.php?user=$1 [L,QSA]
